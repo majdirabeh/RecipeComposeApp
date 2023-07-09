@@ -19,10 +19,4 @@ interface ServiceApi {
         @Query("query") query: String
     ): RecipeSearchResponse
 
-    @GET("get")
-    suspend fun get(
-        @Header("Authorization") token: String,
-        @Query("id") id: Int
-    ): Recipe
-
 }
