@@ -1,0 +1,33 @@
+package fr.dev.majdi.composemenu.di
+
+import dagger.Module
+import dagger.Provides
+import dagger.hilt.InstallIn
+import dagger.hilt.components.SingletonComponent
+import fr.dev.majdi.composemenu.network.ServiceApi
+import fr.dev.majdi.composemenu.network.model.RecipeMapper
+import fr.dev.majdi.composemenu.repository.RecipeRepository
+import fr.dev.majdi.composemenu.repository.RecipeRepositoryImpl
+import javax.inject.Singleton
+
+/**
+ * Created by Majdi RABEH on 09/07/2023.
+ * Email m.rabeh.majdi@gmail.com
+ */
+@Module
+@InstallIn(SingletonComponent::class)
+object RepositoryModule {
+
+    @Singleton
+    @Provides
+    fun provideRecipeRepository(
+        serviceApi: ServiceApi,
+        recipeMapper: RecipeMapper,
+    ): RecipeRepository {
+        return RecipeRepositoryImpl(
+            serviceApi = serviceApi,
+            mapper = recipeMapper
+        )
+    }
+
+}
