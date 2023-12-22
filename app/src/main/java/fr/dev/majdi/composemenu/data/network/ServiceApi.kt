@@ -1,7 +1,6 @@
-package fr.dev.majdi.composemenu.network
+package fr.dev.majdi.composemenu.data.network
 
-import fr.dev.majdi.composemenu.network.model.Recipe
-import fr.dev.majdi.composemenu.network.response.RecipeSearchResponse
+import fr.dev.majdi.composemenu.data.network.model.RecipeSearchResponse
 import retrofit2.http.GET
 import retrofit2.http.Header
 import retrofit2.http.Query

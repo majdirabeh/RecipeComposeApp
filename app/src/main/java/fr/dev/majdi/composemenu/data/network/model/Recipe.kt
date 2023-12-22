@@ -1,4 +1,4 @@
-package fr.dev.majdi.composemenu.network.model
+package fr.dev.majdi.composemenu.data.network.model
 
 import com.google.gson.annotations.SerializedName
 

@@ -12,13 +12,10 @@ import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.platform.ComposeView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.navigation.findNavController
 import dagger.hilt.android.AndroidEntryPoint
-import fr.dev.majdi.composemenu.presentation.App
 import fr.dev.majdi.composemenu.presentation.components.RecipeList
 import fr.dev.majdi.composemenu.presentation.ui.theme.AppTheme
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import javax.inject.Inject
 
 /**
  * Created by Majdi RABEH on 07/07/2023.

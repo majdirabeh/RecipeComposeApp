@@ -17,8 +17,8 @@ import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.unit.dp
 import fr.dev.majdi.composemenu.domain.model.RecipeModel
-import fr.dev.majdi.composemenu.utils.DEFAULT_RECIPE_IMAGE
-import fr.dev.majdi.composemenu.utils.loadPicture
+import fr.dev.majdi.composemenu.presentation.utils.DEFAULT_RECIPE_IMAGE
+import fr.dev.majdi.composemenu.presentation.utils.loadPicture
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 
 /**

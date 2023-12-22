@@ -1,7 +1,7 @@
-package fr.dev.majdi.composemenu.network.response
+package fr.dev.majdi.composemenu.data.network.model
 
 import com.google.gson.annotations.SerializedName
-import fr.dev.majdi.composemenu.network.model.Recipe
+import fr.dev.majdi.composemenu.data.network.model.Recipe
 
 /**
  * Created by Majdi RABEH on 07/07/2023.

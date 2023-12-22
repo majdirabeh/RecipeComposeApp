@@ -1,4 +1,4 @@
-package fr.dev.majdi.composemenu.presentation
+package fr.dev.majdi.composemenu
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

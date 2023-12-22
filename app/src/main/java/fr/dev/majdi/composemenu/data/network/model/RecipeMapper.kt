@@ -1,4 +1,4 @@
-package fr.dev.majdi.composemenu.network.model
+package fr.dev.majdi.composemenu.data.network.model
 
 import fr.dev.majdi.composemenu.domain.model.RecipeModel
 import fr.dev.majdi.composemenu.domain.util.DomainMapper

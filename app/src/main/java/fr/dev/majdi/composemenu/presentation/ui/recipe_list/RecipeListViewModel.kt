@@ -8,8 +8,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
 import fr.dev.majdi.composemenu.domain.model.RecipeModel
-import fr.dev.majdi.composemenu.repository.RecipeRepository
-import fr.dev.majdi.composemenu.utils.TAG
+import fr.dev.majdi.composemenu.domain.repository.RecipeRepository
+import fr.dev.majdi.composemenu.presentation.utils.TAG
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import javax.inject.Inject

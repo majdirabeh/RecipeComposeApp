@@ -1,4 +1,4 @@
-package fr.dev.majdi.composemenu.utils
+package fr.dev.majdi.composemenu.presentation.utils
 
 import android.annotation.SuppressLint
 import android.graphics.Bitmap

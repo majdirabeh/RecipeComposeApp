@@ -1,4 +1,4 @@
-package fr.dev.majdi.composemenu.utils
+package fr.dev.majdi.composemenu.presentation.utils
 
 /**
  * Created by Majdi RABEH on 07/07/2023.

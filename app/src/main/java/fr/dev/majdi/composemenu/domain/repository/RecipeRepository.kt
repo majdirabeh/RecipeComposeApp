@@ -1,4 +1,4 @@
-package fr.dev.majdi.composemenu.repository
+package fr.dev.majdi.composemenu.domain.repository
 
 import fr.dev.majdi.composemenu.domain.model.RecipeModel
 

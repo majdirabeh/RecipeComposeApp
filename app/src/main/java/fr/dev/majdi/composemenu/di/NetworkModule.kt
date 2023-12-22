@@ -5,9 +5,9 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import fr.dev.majdi.composemenu.network.ServiceApi
-import fr.dev.majdi.composemenu.network.model.RecipeMapper
-import fr.dev.majdi.composemenu.utils.BASE_URL
+import fr.dev.majdi.composemenu.data.network.ServiceApi
+import fr.dev.majdi.composemenu.data.network.model.RecipeMapper
+import fr.dev.majdi.composemenu.presentation.utils.BASE_URL
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Named
