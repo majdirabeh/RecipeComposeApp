@@ -38,7 +38,7 @@ fun RecipeList(
                     RecipeCard(
                         recipe = recipe,
                         onClick = {
-
+                            //TODO To be implement
                         }
                     )
                 }
